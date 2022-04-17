@@ -3,42 +3,42 @@
         "id": 1,
         "name":"White Pasta",
         "img":"https://i.ibb.co/FxLrX6h/278367330-327392572640653-7276534547582542439-n.jpg",
-        "price": "570 tk",
+        "price": "570",
         "des":"Home made Pasta with cheese. It has chicken, capcicum and many other vegetable. You can order any quantity of it."
     },
     {
         "id": 2,
         "name":"Hydrabadi Biriany",
         "img":"https://i.ibb.co/Fhbv57t/278410587-370133711692722-7574584170751220402-n.jpg",
-        "price": "800 tk",
+        "price": "800",
         "des":"Most delicious Home Made Hydrabadi biriyany in town. You will get mouth watery when u smell this food. Per biriyani pot contains 1kg of biriyany"
     },
     {
         "id": 3,
         "name":"Duck's Vuna khichuri",
         "img":"https://i.ibb.co/3YRkDSR/278401843-328197712558557-1291671411844105807-n.jpg",
-        "price": "400tk",
+        "price": "400",
         "des":"Duck's Vuna khichuri or has er vuna khichuri. Per packet contains 250gm of khichuri. You will get 2pcs of ducks meat."
     },
     {
         "id": 4,
         "name":"Blust cheesy Pizza",
         "img":"https://i.ibb.co/n6CWspw/278372079-866466301420816-3991047884148324462-n.jpg",
-        "price": "899tk",
+        "price": "899",
         "des":"12 inch Home made cheesy pizza contains cheese, mashroom, peporoni, black olive, chicken, sausage. Cauze of those item this is blast pizza."
     },
     {
         "id": 5,
         "name":"Tandoori chicken",
         "img":"https://i.ibb.co/TMwFFmr/278435397-418101180132088-2852147279158851757-n.jpg",
-        "price": "450tk",
+        "price": "450",
         "des":"Home made tandoori chicken is now available in town. It has no artificial color on it. We use fresh chicken and spice to make this more delicious and healthy"
     },
     {
         "id": 6,
         "name":"Chicken Pasta",
         "img":"https://i.ibb.co/HtvrP4H/278401844-403206341262647-6305666495056573595-n.jpg",
-        "price": "400tk",
+        "price": "400",
         "des":"No cheese no white sauce. This pasta is made with chicken and other vegetable. This is for those who want to diet but can not avoid Pasta."
     }
 ]
