@@ -1,18 +1,7 @@
-/* .service-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+.service-title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-*/
-/*Responsive service card*/
-/*
-@media only screen and (max-width:576px) {
-    .service-card{
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-@media only screen and (min-width:577px) and (max-width: 992px) {
-    .service-card{
-        grid-template-columns: repeat(2, 1fr);
-    }
-} */
