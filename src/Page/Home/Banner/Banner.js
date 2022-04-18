@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap';
-import banner1 from '../../../images/banner1.jpg'
-import banner2 from '../../../images/banner2.jpg'
-import banner3 from '../../../images/banner3.jpg'
-import '../Banner/Banner.css'
+import banner1 from '../../../images/banner1.jpg';
+import banner2 from '../../../images/banner2.jpg';
+import banner3 from '../../../images/banner3.jpg';
+import banner4 from '../../../images/banner4.jpg';
+import banner5 from '../../../images/banner5.jpg';
+import '../Banner/Banner.css';
 const Banner = () => {
     const [index, setIndex] = useState(0);
 
@@ -32,7 +34,35 @@ const Banner = () => {
 
                     <Carousel.Caption>
                         <h3>Delicious</h3>
-                        <p>No artificial spice has not used.</p>
+                        <p>No artificial spice or color has not used.</p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={banner5}
+                        alt=""
+                    />
+
+                    <Carousel.Caption>
+                        <h3>Hygenic</h3>
+                        <p>
+                            More hygenic. More clean. 
+                        </p>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block w-100"
+                        src={banner4}
+                        alt=""
+                    />
+
+                    <Carousel.Caption>
+                        <h3>More Fresh</h3>
+                        <p>
+                        No artificial spice or color has not used.. 
+                        </p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -43,9 +73,9 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Hygenic</h3>
+                        <h3>More Fresh</h3>
                         <p>
-                            More hygenic. More clean. 
+                        More hygenic. More clean. 
                         </p>
                     </Carousel.Caption>
                 </Carousel.Item>

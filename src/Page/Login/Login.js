@@ -5,6 +5,8 @@ import "../Login/Login.css"
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -18,7 +20,13 @@ const Login = () => {
         loading,
         error,
     ] = useSignInWithEmailAndPassword(auth);
-
+    if(error){
+        return(
+            <div>
+                <p className="text-danger text-center fs-1 mt-5">WRONG!! WRONG!!! WRONG Email or Password {error.massage}</p>
+            </div>
+        )
+    }
     if (user) {
         navigate(from, { replace:true });
     }
