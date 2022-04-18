@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import banner1 from '../../../images/banner1.jpg'
 import banner2 from '../../../images/banner2.jpg'
 import banner3 from '../../../images/banner3.jpg'
-
+import '../Banner/Banner.css'
 const Banner = () => {
     const [index, setIndex] = useState(0);
 
@@ -19,8 +19,8 @@ const Banner = () => {
                         alt=""
                     />
                     <Carousel.Caption>
-                        <h3>Home Chef</h3>
-                        <p>I take orders and make it at home.</p>
+                        <h3 className='person-name'>I am a Home Chef</h3>
+                        <p className='person-dtl'>I take orders and make it at home with care and love.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>

@@ -1,8 +1,8 @@
 .service-card{
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     text-align: center;
-    height: 500px;
-    align-items: center;
+    height: 530px;
+    vertical-align: middle;
 }
 .service-name{
     margin-top: 10px;
@@ -26,5 +26,6 @@
 .checkout-button{
     background-color: rgb(215, 15, 100);
     color: white;
-    margin-top: 15px;
+    margin-top: 5px;
+    padding-bottom: 10px;
 }
