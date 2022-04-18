@@ -9,7 +9,7 @@ const Blog = () => {
             <div className="container my-blog">
                 <div>
                     <h2>Difference between Authorization and Authentication</h2>
-                    <p></p>
+                    <p>Authentication and Authorization are the first line of defense to prevent confidential data from falling into the wrong hands.</p>
                 </div>
                 <div>
                     <h2>Why Should use firebase? what is alternative of firebase</h2>
