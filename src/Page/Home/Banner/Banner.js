@@ -19,7 +19,7 @@ const Banner = () => {
                         alt=""
                     />
                     <Carousel.Caption>
-                        <h3 className='person-name'>I am a Home Chef</h3>
+                        <h3 className='person-name'>I am Certified a Home Chef</h3>
                         <p className='person-dtl'>I take orders and make it at home with care and love.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
